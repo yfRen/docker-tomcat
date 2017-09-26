@@ -3,7 +3,7 @@
 #
 
 # FROM            sspaas.net/renyf/alpine-jdk:1.8
-FROM            jboss/base-jdk
+FROM            index.tenxcloud.com/renyf/jre:1.7.0
 MAINTAINER      Renyf <renyongfanemail@sina.com>
 
 RUN wget http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.54/bin/apache-tomcat-7.0.54.tar.gz
